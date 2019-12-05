@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TableView fx:id="table" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thunder.TableController">
+  <columns>
+    <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+    <TableColumn fx:id="object" prefWidth="218.0" text="oggetto" />
+      <TableColumn fx:id="sender" prefWidth="163.0" text="mittente" />
+      <TableColumn fx:id="date" prefWidth="143.0" text="data" />
+  </columns>
+</TableView>
